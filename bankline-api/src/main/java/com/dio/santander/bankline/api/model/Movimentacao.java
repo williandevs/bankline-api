@@ -2,7 +2,7 @@ package com.dio.santander.bankline.api.model;
 
 import java.time.LocalDateTime;
 
-public class Mvimentacao {
+public class Movimentacao {
 	
 	private Integer id;
 	private LocalDateTime dataHora;
