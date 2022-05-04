@@ -12,8 +12,8 @@ import javax.persistence.Table;
 @SuppressWarnings("unused")
 @Entity
 @Table(name = "tab_correntista")
-
 public class Correntista {
+	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer id;
@@ -35,8 +35,8 @@ public class Correntista {
 		return conta;
 	}
 	
-	public void setConata(Conta conata) {
-		this.conta = conata;
+	public void setConta(Conta conta) {
+		this.conta = conta;
 	}
 	
 	public Integer getId() {
